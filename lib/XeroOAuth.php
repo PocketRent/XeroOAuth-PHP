@@ -478,9 +478,7 @@ class XeroOAuth
 		} elseif ($request == "AccessToken") {
 			$this->config['host'] = $this->config['site'] . '/oauth/';
 		} else {
-			$api_stem    = "api.xro";
-			$api_version = $this->config['core_version'];
-			$this->config['host'] = $this->config['xero_url'] . $api_stem . '/' . $api_version . '/';
+			$this->config['host'] = $this->config['xero_url'] . 'api.xro/2.0/';
 		}
 
 		return implode(array(
