@@ -26,8 +26,8 @@ class XeroOAuth
 		$this->buffer          = null;
 
 		$this->_xero_defaults = array(
-			'xero_url' => 'https://api.xero.com/',
-			'site' => 'https://api.xero.com',
+			'xero_url' => 'https://api-partner.network.xero.com/',
+			'site' => 'https://api-partner.network.xero.com',
 			'authorize_url' => 'https://api.xero.com/oauth/Authorize',
 			'signature_method' => 'RSA-SHA1'
 		);
